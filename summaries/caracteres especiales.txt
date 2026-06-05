@@ -1,0 +1,11 @@
+&ccedil;	ç
+&#339;		œ
+&ntilde;	ñ
+&Ntilde;	Ñ
+&agrave;	à
+&aacute;	á
+&acirc;		â
+&atilde;	ã
+&auml;		ä
+
+Parecido para las e, i, o, u, mayúsculas. 

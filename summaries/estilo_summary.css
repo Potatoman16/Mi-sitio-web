@@ -1,0 +1,141 @@
+/*header style*/
+
+/* Global page layout */
+/* Global page layout */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.4;
+    color: #222;
+    margin: 0;
+    background-color: rgb(210 100 190 / 5%);
+}
+
+/* Central column */
+main {
+    max-width: 780px;      /* controla longitud de línea */
+    margin: 10px auto;     /* centra la página */
+    padding: 150 20px;
+}
+
+p {
+    margin-bottom: 1.5em;
+    text-align: justify;
+}
+
+.little-space {
+   margin-top: -20px;
+   margin-bottom: -10px;
+}
+
+.with-photo {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 40px;
+    align-items: start;
+}
+
+/* photo style */
+.sidebar img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* responsive: on small screens stack */
+@media (max-width: 900px) {
+    .with-photo {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* emphasis for important statements */
+.highlight {
+    font-weight: 600;
+    color: rgb(140, 50, 120);
+}
+
+/* for definitions or key phrases */
+.definition {
+    font-style: italic;
+}
+
+/* subtle box (useful in summaries) */
+.note {
+    background-color: #f7f4f7;
+    border-left: 4px solid rgb(140, 50, 120);
+    padding: 12px 16px;
+    margin: 20px 0;
+}
+
+.math-list {
+    margin: 1.2em 0 1.8em 1.4em;
+    padding: 0;
+}
+
+.math-list li {
+    margin-bottom: 0.6em;
+    padding-left: 0.4em;
+}
+
+/* Make bullets lighter and elegant */
+.math-list li::marker {
+    color: rgb(140, 50, 120);
+    font-size: 1.1em;
+}
+
+header {
+
+   text-align: center; 
+
+   margin-top: 25px;
+
+   padding: 10px;
+
+   color: #9f1050;
+
+}
+
+/*navigation menu style*/
+
+nav {
+
+   text-align: center;
+
+   word-spacing: 10px;
+
+   Padding: 10px;
+
+}
+
+/*creating the two-column layout*/
+*{
+
+   box-sizing: border-box;
+
+}
+
+a {
+    color: #9f1050;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 510;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 510;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #9f1050;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #9f1050;
+}
